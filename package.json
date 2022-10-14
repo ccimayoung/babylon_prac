@@ -18,6 +18,7 @@
     "babylonjs": "^5.28.0",
     "babylonjs-loaders": "^5.28.0",
     "copy-webpack-plugin": "^11.0.0",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
