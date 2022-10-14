@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://본인아이디.github.io/movie-app",
+  "homepage": "https://ccimayoung.github.io/babylon_prac",
   "scripts": {
     "start": "webpack serve --open --mode=development",
     "build": "webpack --mode=production",
