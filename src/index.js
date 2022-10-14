@@ -22,7 +22,7 @@ const createScene = function () {
   scene.activeCamera.target = new BABYLON.Vector3(-1, 1.5, -3);
   scene.activeCamera.fov = (Math.PI / 4) * 0.75;
   scene.activeCamera.angularSensibility = 2000;
-  scene.activeCamera.speed = 0.3;
+  scene.activeCamera.speed = 0.2;
 
   const light = new BABYLON.HemisphericLight(
     "light",
