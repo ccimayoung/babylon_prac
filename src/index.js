@@ -31,14 +31,14 @@ const createScene = function () {
 
   const room = new BABYLON.SceneLoader.ImportMesh(
     "",
-    "/models/",
+    "./models/",
     "Room_all.glb",
     scene
   );
 
   const exhibition = new BABYLON.SceneLoader.ImportMesh(
     "",
-    "/models/",
+    "./models/",
     "Exhibition_A.glb",
     scene,
     function (newMeshes) {
