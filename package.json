@@ -7,7 +7,9 @@
   "scripts": {
     "start": "webpack serve --open --mode=development",
     "build": "webpack --mode=production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +25,7 @@
   "devDependencies": {
     "css-loader": "^6.7.1",
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "style-loader": "^3.3.1",
     "webpack-dev-server": "^4.11.1"
   }
