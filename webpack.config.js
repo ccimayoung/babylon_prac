@@ -4,7 +4,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
-  output: { filename: "main.js", path: path.resolve(__dirname, "dist") },
+  output: { filename: "main.js", path: path.resolve(__dirname, "build") },
   module: {
     rules: [
       {
@@ -25,7 +25,7 @@ module.exports = {
   ],
   devServer: {
     static: {
-      directory: path.resolve(__dirname, "dist"),
+      directory: path.resolve(__dirname, "build"),
     },
     port: 8080,
   },
